@@ -1,0 +1,25 @@
+{
+  "parent": "broken_nametags:recipes/root",
+  "criteria": {
+    "has_broken_nametag": {
+      "conditions": {
+        "items": [
+          {
+            "items": "broken_nametags:broken_nametag"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_broken_nametag"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "broken_nametags:broken_to_normal_nametag"
+    ]
+  }
+}

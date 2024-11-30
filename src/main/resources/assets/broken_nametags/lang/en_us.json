@@ -1,0 +1,7 @@
+{
+  "item.broken_nametags.broken_nametag": "Broken Name Tag",
+  "item.broken_nametags.broken_nametag.base": "-- In Memories --",
+  "item.broken_nametags.broken_nametag.name": "Name: %s",
+  "item.broken_nametags.broken_nametag.time": "Time of Death: %s",
+  "item.broken_nametags.broken_nametag.deathMessage": "Death Message: %s"
+}

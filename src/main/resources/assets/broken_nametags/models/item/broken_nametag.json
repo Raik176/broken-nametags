@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "broken_nametags:item/broken_nametag"
+  }
+}
