@@ -1,0 +1,6 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "broken_nametags:item/broken_nametag"
+  }
+}
