@@ -1,12 +1,12 @@
-package org.rhm.broken_nametags;
+package de.rhm176.broken_nametags;
 
 import net.minecraft.core.Registry;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.Item;
-import org.rhm.broken_nametags.component.ComponentRegistry;
-import org.rhm.broken_nametags.item.ItemRegistry;
+import de.rhm176.broken_nametags.component.ComponentRegistry;
+import de.rhm176.broken_nametags.item.ItemRegistry;
 
 
 public class BrokenNametagsCommon {

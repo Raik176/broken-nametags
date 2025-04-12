@@ -1,4 +1,4 @@
-package org.rhm.broken_nametags.item;
+package de.rhm176.broken_nametags.item;
 
 import net.minecraft.ChatFormatting;
 import net.minecraft.nbt.CompoundTag;
@@ -8,7 +8,7 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.level.Level;
 import org.jetbrains.annotations.Nullable;
-import org.rhm.broken_nametags.component.ComponentRegistry;
+import de.rhm176.broken_nametags.component.ComponentRegistry;
 
 import java.time.Instant;
 import java.time.ZoneId;

@@ -1,4 +1,4 @@
-package org.rhm.broken_nametags.forge;
+package de.rhm176.broken_nametags.forge;
 
 
 import net.minecraft.core.registries.Registries;
@@ -8,8 +8,8 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
-import org.rhm.broken_nametags.BrokenNametagsBase;
-import org.rhm.broken_nametags.BrokenNametagsCommon;
+import de.rhm176.broken_nametags.BrokenNametagsBase;
+import de.rhm176.broken_nametags.BrokenNametagsCommon;
 
 import java.util.function.Function;
 import java.util.function.Supplier;

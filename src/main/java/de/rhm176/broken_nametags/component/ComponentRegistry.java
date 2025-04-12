@@ -1,4 +1,4 @@
-package org.rhm.broken_nametags.component;
+package de.rhm176.broken_nametags.component;
 
 //? if >=1.20.5 {
 import com.mojang.serialization.Codec;
@@ -6,7 +6,7 @@ import com.mojang.serialization.codecs.RecordCodecBuilder;
 import net.minecraft.core.component.DataComponentType;
 import net.minecraft.network.chat.Component;
 import net.minecraft.network.chat.ComponentSerialization;
-import org.rhm.broken_nametags.BrokenNametagsCommon;
+import de.rhm176.broken_nametags.BrokenNametagsCommon;
 
 import java.util.function.Supplier;
 //?}

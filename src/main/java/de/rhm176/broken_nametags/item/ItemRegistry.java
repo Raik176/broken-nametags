@@ -1,6 +1,6 @@
-package org.rhm.broken_nametags.item;
+package de.rhm176.broken_nametags.item;
 
-import org.rhm.broken_nametags.BrokenNametagsCommon;
+import de.rhm176.broken_nametags.BrokenNametagsCommon;
 
 import java.util.function.Supplier;
 

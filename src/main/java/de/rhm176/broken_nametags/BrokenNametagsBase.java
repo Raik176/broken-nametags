@@ -1,4 +1,4 @@
-package org.rhm.broken_nametags;
+package de.rhm176.broken_nametags;
 
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.world.item.Item;
@@ -17,7 +17,7 @@ public interface BrokenNametagsBase {
     default Item.Properties newProperties(ResourceKey<Item> key) {
         return new Item.Properties()
         //? if >=1.21.2
-                /*.setId(key)*/
+                .setId(key)
         ;
     }
 }

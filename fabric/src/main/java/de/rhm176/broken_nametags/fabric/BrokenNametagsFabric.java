@@ -1,11 +1,11 @@
-package org.rhm.broken_nametags.fabric;
+package de.rhm176.broken_nametags.fabric;
 
 import net.fabricmc.api.ModInitializer;
 import net.minecraft.core.Registry;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.world.item.Item;
-import org.rhm.broken_nametags.BrokenNametagsBase;
-import org.rhm.broken_nametags.BrokenNametagsCommon;
+import de.rhm176.broken_nametags.BrokenNametagsBase;
+import de.rhm176.broken_nametags.BrokenNametagsCommon;
 
 import java.util.function.Function;
 import java.util.function.Supplier;

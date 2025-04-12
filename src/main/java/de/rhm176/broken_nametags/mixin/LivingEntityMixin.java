@@ -1,4 +1,4 @@
-package org.rhm.broken_nametags.mixin;
+package de.rhm176.broken_nametags.mixin;
 
 import net.minecraft.nbt.CompoundTag;
 import net.minecraft.network.chat.Component;
@@ -7,13 +7,12 @@ import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.LivingEntity;
-import net.minecraft.world.entity.OwnableEntity;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.Level;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
-import org.rhm.broken_nametags.component.ComponentRegistry;
-import org.rhm.broken_nametags.item.ItemRegistry;
+import de.rhm176.broken_nametags.component.ComponentRegistry;
+import de.rhm176.broken_nametags.item.ItemRegistry;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.Unique;
 import org.spongepowered.asm.mixin.injection.At;
@@ -34,10 +33,10 @@ public abstract class LivingEntityMixin extends Entity {
                 //?} else
                 /*this.level*/
                         .isClientSide) {
-            if (this.hasCustomName() || (this instanceof OwnableEntity ownable && ownable.getOwnerUUID() != null)) {
+            if (this.hasCustomName()) {
                 this.spawnAtLocation(
                         //? if >1.20.6
-                        /*(ServerLevel)level(),*/
+                        (ServerLevel)level(),
                         broken_nametags$newNametag(
                                 getName(),
                                 damageSource.getLocalizedDeathMessage((LivingEntity)(Object)this)

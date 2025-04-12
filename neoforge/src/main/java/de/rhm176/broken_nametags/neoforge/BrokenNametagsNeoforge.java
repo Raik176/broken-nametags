@@ -1,12 +1,12 @@
-package org.rhm.broken_nametags.neoforge;
+package de.rhm176.broken_nametags.neoforge;
 
 import net.minecraft.core.registries.Registries;
 import net.minecraft.world.item.Item;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.fml.ModContainer;
 import net.neoforged.neoforge.registries.DeferredRegister;
-import org.rhm.broken_nametags.BrokenNametagsBase;
-import org.rhm.broken_nametags.BrokenNametagsCommon;
+import de.rhm176.broken_nametags.BrokenNametagsBase;
+import de.rhm176.broken_nametags.BrokenNametagsCommon;
 import net.neoforged.fml.common.Mod;
 
 import java.util.function.Function;
@@ -29,7 +29,7 @@ public class BrokenNametagsNeoforge {
 		//? if >=1.20.5 {
 		private static final DeferredRegister.DataComponents COMPONENT_REGISTRY = DeferredRegister.createDataComponents(
 				//? if >=1.21.3
-				/*Registries.DATA_COMPONENT_TYPE,*/
+				Registries.DATA_COMPONENT_TYPE,
 				BrokenNametagsCommon.MOD_ID
 		);
 		//?}
